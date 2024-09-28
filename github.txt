@@ -1,0 +1,19 @@
+1.git config --global user.name ""
+  .git config --global user.email ""
+ git config -l"是否设置成功"
+2. git init
+    git add *
+   git commit "first commit"
+3.创建仓库new repository
+  将master改为main: git branch -m master main
+4. git remote add origin  git@github.com:fengweisen/xincode.git
+5.检查 SSH 密钥:
+ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+6.eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+7.cat ~/.ssh/id_rsa.pub
+8.ssh -T git@github.com
+9.git push -u origin main
+
+
+ 
